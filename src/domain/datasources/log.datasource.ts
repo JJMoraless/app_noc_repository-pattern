@@ -3,7 +3,7 @@ import { LogEntity, LogSeverityLevel } from '../entities/log.entity'
 // Business rules for data sources
 
 // If the datasource does not comply with the business rules,
-// it will be considered a datasource for our logs
+// it will not be considered a datasource for our logs
 
 export abstract class LogDataSource {
   abstract saveLog(log: LogEntity): Promise<void>
