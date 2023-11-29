@@ -1,12 +1,8 @@
-import { envs } from './config/plugins/envs.plugin'
 import { Server } from './presentation/Server'
-
-(async () => {
+;(async () => {
   main()
 })()
 
 function main() {
-  // Server.start()
-
-  console.log(envs.PORT)
+  Server.start()
 }
