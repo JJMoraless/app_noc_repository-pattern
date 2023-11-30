@@ -1,6 +1,8 @@
 import { EmailService } from '../../../presentation/email/email.service'
 import { LogEntity, LogSeverityLevel } from '../../entities/log.entity'
 import { LogRepository } from '../../repository/log.repository'
+
+
 interface SendEmailUseCase {
   execute(to: string | string[]): Promise<boolean>
 }
