@@ -1,4 +1,8 @@
-EL objetico es crear una aplicacion para aprender arquietctura limpia y patrones con typescript
+EL objetivo es crear una aplicacion para aprender arquitectura limpia , repository pattern y patrones en general con typescript
+
+preferible utilizar docker para levantar las bases de datos mongodb y postgreSQL
+
+se utiliza fileSystem, mongodb y postgreSQL como sistemas de persistencia para poder ver el del patron repositorio
 
 # dev
 
