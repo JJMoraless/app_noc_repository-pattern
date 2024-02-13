@@ -2,7 +2,7 @@ EL objetivo es crear una aplicacion para aprender arquitectura limpia , reposito
 
 preferible utilizar docker para levantar las bases de datos mongodb y postgreSQL
 
-se utiliza fileSystem, mongodb y postgreSQL como sistemas de persistencia para poder ver el del patron repositorio
+se utiliza fileSystem, mongodb y postgreSQL como sistemas de persistencia para experimentar el poder del patron repositorio
 
 # dev
 
